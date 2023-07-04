@@ -1,0 +1,43 @@
+@font-face {
+    font-family: pizza;
+    src: url("sources/PIZZARIA.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: pizza;
+}
+
+body {
+    background-color: brown;
+}
+
+#title {
+    text-align: center;
+    font-size: 100px;
+    background-color: azure;
+}
+
+#back {
+    display: none;
+    margin: -1% auto 1% auto;
+    width: 30%;
+}
+
+.function {
+    display: inline-block;
+    margin: 3% auto 1% auto;
+    padding: 1%;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+#fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
